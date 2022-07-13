@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
     public Stuff[] poops;
     public Image SwitchButtonIcon, CreateButtonIcon;
     public GameObject Popa;
-    public AudioSource MusicAs, SfxAs;
+    public AudioSource MusicAs, SfxAs, RocketAs;
     public AudioClip ChangeObjectSound;
     public AudioClip MishkaSizeSound;
     public Transform CoolDownAnim;
@@ -30,7 +30,6 @@ public class PlayerControl : MonoBehaviour
     private Stuff currentItem;
     private bool ready = true;//not ready
     private Rigidbody2D _rb;
-    private int sc;
     private int index = 0;
 
     void Start()
@@ -60,6 +59,10 @@ public class PlayerControl : MonoBehaviour
         ready = true;
     }
 
+    /// <summary>
+    /// перезарядка объектов!!!!!
+    /// </summary>
+    /// <param name="delay">время загрузки сек</param>
     IEnumerator AnimateCoolDown(float delay)
     {
         var remainingDelay = delay;
@@ -152,6 +155,7 @@ public class PlayerControl : MonoBehaviour
             movement.y = 0;
         }
         _rb.velocity = Vector2.ClampMagnitude(movement, speed);
+        RocketAs.volume = _rb.velocity.magnitude / speed;
     }
 }
 
