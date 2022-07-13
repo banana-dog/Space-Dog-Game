@@ -13381,6 +13381,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1739924112}
     - target: {fileID: 5101179099172674250, guid: 6046a1edd597004458561b8baeb74747, type: 3}
+      propertyPath: MainCamera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 5101179099172674250, guid: 6046a1edd597004458561b8baeb74747, type: 3}
       propertyPath: CoolDownAnim
       value: 
       objectReference: {fileID: 1602873035}

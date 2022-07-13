@@ -26,6 +26,7 @@ public class PlayerControl : MonoBehaviour
     public AudioClip ChangeObjectSound;
     public AudioClip MishkaSizeSound;
     public Transform CoolDownAnim;
+    public Camera MainCamera;
     public float limy = 30;
     private Stuff currentItem;
     private bool ready = true;//not ready
@@ -136,7 +137,7 @@ public class PlayerControl : MonoBehaviour
             {
                 SfxAs.PlayOneShot(MishkaSizeSound);
             }
-
+            MainCamera.orthographicSize += growth_size * 2;
             return true;
         }
         return false;
