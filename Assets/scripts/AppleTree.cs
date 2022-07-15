@@ -3,16 +3,22 @@ using UnityEngine.UI;
 
 public class AppleTree : MonoBehaviour
 {
+    public float RepeatRate = 10;
     public Text AppleText, CollectedAppleText;
     public GameObject Apple;
     private int appleNum, collectedAppleNum;
+
     private void Start()
     {
-        InvokeRepeating(nameof(SpawnApple), 0, 10f);
+        InvokeRepeating(nameof(SpawnApple), 0, RepeatRate);
     }
+
     public int AppleNum
     {
-        get => appleNum;
+        get
+        {
+            return appleNum;
+        }
         set
         {
             appleNum = value;
@@ -22,7 +28,10 @@ public class AppleTree : MonoBehaviour
 
     public int CollectedAppleNum
     {
-        get => collectedAppleNum;
+        get
+        {
+            return collectedAppleNum;
+        }
         set
         {
             collectedAppleNum = value;
@@ -34,10 +43,12 @@ public class AppleTree : MonoBehaviour
     {
         if (AppleNum < 5)
         {
-            var apple = Instantiate(Apple, transform, false);
-            apple.transform.localPosition = new Vector3(Random.Range(-2.5f, 2.5f), Random.Range(-1.5f, 3.5f), -0.5f);
+            var apple = Instantiate(Apple, transform);
+            var randomPosition = new Vector3(Random.Range(-2.5f, 2.5f), Random.Range(-2.5f, 2.5f), -0.5f);
+            apple.transform.localPosition = Vector3.ClampMagnitude(randomPosition, 2.5f) + Vector3.up;
         }
     }
+
     public void CollectApple()
     {
         AppleNum--;
