@@ -133,7 +133,11 @@ public class PlayerControl : MonoBehaviour
         if (scale.x < MaxSize && scale.x > MinSize)
         {
             transform.localScale = scale;
-            _rb.mass = MassFactor * scale.x;
+            foreach (var tr in GetComponentsInChildren<TrailRenderer>())
+            {
+                tr.time = 0.4f + scale.x / 10;
+            }
+            _rb.mass = MassFactor * scale.x; 
             if (!SfxAs.isPlaying)
             {
                 SfxAs.PlayOneShot(MishkaSizeSound);
