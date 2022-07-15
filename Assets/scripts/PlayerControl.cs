@@ -39,6 +39,7 @@ public class PlayerControl : MonoBehaviour
         //SwitchButtonIcon.sprite = currentItem.Icon;
         CreateButtonIcon.sprite = currentItem.Icon;
         _rb = GetComponent<Rigidbody2D>();
+        MainCamera.transparencySortMode = TransparencySortMode.Orthographic;
     }
 
     private void Spawn(GameObject go)
