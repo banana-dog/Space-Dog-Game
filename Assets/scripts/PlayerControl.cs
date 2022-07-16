@@ -29,7 +29,7 @@ public class PlayerControl : MonoBehaviour
     public Camera MainCamera;
     public float limy = 30;
     private Stuff currentItem;
-    private bool ready = true;//not ready
+    private bool ready = true;
     private Rigidbody2D _rb;
     private int index = 0;
 
