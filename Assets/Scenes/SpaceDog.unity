@@ -158,12 +158,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2064365896}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 524.95, y: -323.69}
-  m_SizeDelta: {x: 1058.6, y: 300}
+  m_AnchoredPosition: {x: 466.23, y: -150}
+  m_SizeDelta: {x: 884.88, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24335959
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0418\u043A\u043E\u043D\u043A\u0438:\nhttps://icons8.com\n\n\u041C\u0443\u0437\u044B\u043A\u0430:\nPixel
+  m_Text: "\n\u0418\u043A\u043E\u043D\u043A\u0438:\nhttps://icons8.com\n\n\u041C\u0443\u0437\u044B\u043A\u0430:\nPixel
     Peeker Polka - slower Kevin MacLeod (incompetech.com)\r\nLicensed under Creative
     Commons: By Attribution 3.0 License\r\nhttp://creativecommons.org/licenses/by/3.0/"
 --- !u!222 &24335960
@@ -322,7 +322,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310.64, y: 275.28998}
+  m_AnchoredPosition: {x: -322, y: 273}
   m_SizeDelta: {x: 844.35, y: 108.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &121843362
@@ -562,12 +562,12 @@ RectTransform:
   - {fileID: 225933057}
   - {fileID: 529280122}
   m_Father: {fileID: 1765529393}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 276.55, y: -245}
-  m_SizeDelta: {x: 1066.9, y: 243.34}
+  m_AnchoredPosition: {x: 320.5902, y: -195.09999}
+  m_SizeDelta: {x: 949.46, y: 343.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &223870615
 MonoBehaviour:
@@ -6057,13 +6057,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2064365896}
-  m_RootOrder: 0
+  m_Father: {fileID: 1765529393}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 524.95, y: -86.845}
-  m_SizeDelta: {x: 173.69, y: 173.69}
+  m_AnchoredPosition: {x: -216, y: -800}
+  m_SizeDelta: {x: 302.14, y: 302.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449561219
 MonoBehaviour:
@@ -6582,7 +6582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -527.87, y: -258}
+  m_AnchoredPosition: {x: -542.23, y: -287}
   m_SizeDelta: {x: 409.89, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504804427
@@ -6844,8 +6844,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 949650210}
   m_HandleRect: {fileID: 949650209}
   m_Direction: 2
-  m_Value: 0.99999875
-  m_Size: 0.47782305
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7706,8 +7706,8 @@ RectTransform:
   m_Father: {fileID: 1525288684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5221763}
-  m_AnchorMax: {x: 1, y: 0.9999994}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13863,7 +13863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310.65, y: 214}
+  m_AnchoredPosition: {x: -322.00995, y: 211.71002}
   m_SizeDelta: {x: 844.33, y: 108.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1590962038
@@ -14339,6 +14339,7 @@ RectTransform:
   - {fileID: 70093992}
   - {fileID: 1548613108}
   - {fileID: 504804426}
+  - {fileID: 449561218}
   - {fileID: 223870614}
   m_Father: {fileID: 2091017753}
   m_RootOrder: 6
@@ -15380,15 +15381,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 449561218}
   - {fileID: 24335958}
   m_Father: {fileID: 413249110}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00028308656}
-  m_SizeDelta: {x: 0, y: 473.69}
+  m_AnchoredPosition: {x: 0, y: -0.00019015653}
+  m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2064365897
 MonoBehaviour:
